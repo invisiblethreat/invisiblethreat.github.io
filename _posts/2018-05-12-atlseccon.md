@@ -2,9 +2,9 @@
 layout:     post
 title:      Turbocharging Discovery with Golang
 date:       2018-05-12 12:31:19
-author:     Scott Walsh
+author:     invisiblethreat
 summary:    Presentation given at AtlSecCon 2018 
-categories: golang, coding, infosec
+categories: golang
 tags:
  - golang
  - coding
