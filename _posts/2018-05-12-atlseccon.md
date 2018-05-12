@@ -3,6 +3,7 @@ layout:     post
 title:      Turbocharging Discovery with Golang
 date:       2018-05-12 12:31:19
 author:     invisiblethreat
+thumbnail:  gopher
 summary:    Presentation given at AtlSecCon 2018 
 categories: golang
 tags:
