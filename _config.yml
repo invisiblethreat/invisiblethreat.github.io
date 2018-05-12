@@ -1,0 +1,32 @@
+# Site settings
+title: "invisiblethreat"
+email: scott@invisiblethreat.ca
+description: "Just because you can't see it doesn't mean that it's not happening."
+baseurl: ""
+url: "https://blog.invisiblethreat.ca"
+title_description: "Posts about information security, code, and technology policies."
+title_image: ""
+google_analytics: ""
+disqus_account: invisiblethreat
+github_repository: https://github.com/invisiblethreat/invisiblethreat.github.io
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: blacktip
+github_username: invisiblethreat
+linkedin_link: https://ca.linkedin.com/in/walshs
+
+# Footer
+footer_left: ""
+footer_right: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
+
