@@ -52,7 +52,7 @@ destroyed in a moment, and now it's gone.
 
 I *was* paying to receive this misinformation.
 
-![...but I'm not paying anymore](/img/cancel.png)
+![...but I'm not paying anymore](/images/cancel.png)
 
-![many exotic scopes, wow!](/img/se_twitter.png)
+![many exotic scopes, wow!](/images/se_twitter.png)
 
