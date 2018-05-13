@@ -1,2 +1,3 @@
 jekyll: "http://i.imgur.com/aRQcGSi.png"
-gopher: "https://blog.invisiblethreat.ca/images/gopher.png"
+gopher: "/images/gopher.png"
+se: "/images/se.png"

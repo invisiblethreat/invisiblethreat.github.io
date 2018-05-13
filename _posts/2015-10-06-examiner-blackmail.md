@@ -1,8 +1,10 @@
 ---
+layout: post
+thumbnail: se
 date: "2015-10-06T11:34:49-04:00"
 title: "Social Engineering construed as blackmail by Halifax Examiner"
-Description: "Salacious headlines get subscribers... I guess."
-Categories:
+description: "Salacious headlines get subscribers... I guess."
+categories:
   - "social engineering"
   - infosec
   - "bad journalism"
