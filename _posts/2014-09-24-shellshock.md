@@ -1,19 +1,18 @@
 ---
-date = "2014-09-24T11:35:18-04:00"
+date: "2014-09-24T11:35:18-04:00"
+author: "Scott Walsh"
 title = "Shellshock - CVE-2014-6271"
-Categories = [
+categories:
   - development",
   - python",
   - shell",
   - infosec",
   - cve-2014-6271",
   - shellshock",
-]
 tags:
   - "information embargo"
   - shellshock"
-disqus_title = "CVE-2014-6271: Shellshock"
-
+disqus_title: "CVE-2014-6271: Shellshock"
 ---
 * [Overview](#overview)
 * [Proof of Concept](#poc)
