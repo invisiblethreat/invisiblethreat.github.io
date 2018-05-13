@@ -5,16 +5,13 @@ thumbnail: se
 date: "2015-10-06T11:34:49-04:00"
 title: "Social Engineering construed as blackmail by Halifax Examiner"
 description: "Salacious headlines get subscribers... I guess."
-categories:
+tags:
   - "social engineering"
   - infosec
   - "bad journalism"
   - "tim bosquet"
   - "dishonest media"
   - "repeat offender"
-tags:
-  - "social engineering"
-  - "bad journalism"
 ---
 
 I fear that the need for salacious headlines from the 
