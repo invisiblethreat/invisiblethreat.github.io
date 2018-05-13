@@ -1,5 +1,6 @@
 ---
 layout: post
+author: "Scott Walsh"
 thumbnail: se
 date: "2015-10-06T11:34:49-04:00"
 title: "Social Engineering construed as blackmail by Halifax Examiner"
@@ -13,6 +14,7 @@ categories:
   - "repeat offender"
 tags:
   - "social engineering"
+  - "bad journalism"
 ---
 
 I fear that the need for salacious headlines from the 
