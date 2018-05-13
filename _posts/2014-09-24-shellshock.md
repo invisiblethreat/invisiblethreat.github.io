@@ -11,7 +11,7 @@ categories:
   - shellshock",
 tags:
   - "information embargo"
-  - shellshock"
+  - shellshock
 disqus_title: "CVE-2014-6271: Shellshock"
 ---
 * [Overview](#overview)
