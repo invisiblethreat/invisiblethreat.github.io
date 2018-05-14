@@ -1,11 +1,8 @@
 ---
+layout: post
 date:   2018-01-22T07:05:59-04:00
 title:  "Canadian Employers: You're Competing Globally for Talent"
 author: "Scott Walsh"
-catagories:
-    - infosec
-    - employment
-    - global
 tags:
     - infosec
     - employment

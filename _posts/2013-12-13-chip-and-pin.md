@@ -1,13 +1,8 @@
 ---
+layout: post
 date:   "2013-12-13T12:05:59-04:00"
 title:  "Bypassing Chip & PIN"
 author: "Scott Walsh"
-Categories:
-  - infosec
-  - fraud
-  - "physical security"
-  - banks
-  - liability
 tags:
   - chip
   - pin

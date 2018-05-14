@@ -1,15 +1,9 @@
 ---
+layout: post
 title: "'Cue the techsplainers', or, how to antagonize domain experts."
 description: "Why do research when you can just be snarky on Twiter?"
-categories:
-  - tracking
-  - surveillance
-  - infosec
-  - "bad journalism"
-  - "tim bosquet
-  - lazy
-  - "repeat offender"
- tags:
+date = "2016-11-18T10:34:49-04:00"
+tags:
   - tracking
   - surveillance
   - infosec
@@ -17,8 +11,6 @@ categories:
   - "tim bosquet"
   - lazy
   - "repeat offender"
-date = "2016-11-18T10:34:49-04:00"
-
 ---
 
 I let out a long sigh as I read the following tweet: "Cue the techsplainers"

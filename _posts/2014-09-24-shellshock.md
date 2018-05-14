@@ -1,18 +1,18 @@
 ---
+layout: post
 date: "2014-09-24T11:35:18-04:00"
 author: "Scott Walsh"
 title: "Shellshock - CVE-2014-6271"
-categories:
-  - development",
-  - python",
-  - shell",
-  - infosec",
-  - cve-2014-6271",
-  - shellshock",
 tags:
+  - development
   - "information embargo"
+  - python
+  - shell
   - shellshock
-disqus_title: "CVE-2014-6271: Shellshock"
+  - exfiltration
+  - infosec
+  - cve-2014-6271
+  - shellshock
 ---
 * [Overview](#overview)
 * [Proof of Concept](#poc)
