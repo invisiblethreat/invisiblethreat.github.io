@@ -5,7 +5,7 @@ description: "Just because you can't see it doesn't mean that it's not happening
 baseurl: ""
 url: "https://blog.invisiblethreat.ca"
 title_description: "Posts about information security, code, and technology policies."
-title_image: ""
+#title_image: ""
 google_analytics: ""
 disqus_account: invisiblethreat
 github_repository: https://github.com/invisiblethreat/invisiblethreat.github.io
