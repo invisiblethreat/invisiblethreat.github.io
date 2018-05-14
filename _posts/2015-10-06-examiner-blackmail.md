@@ -1,9 +1,9 @@
 ---
 layout: post
-author: "Scott Walsh"
+author:    "Scott Walsh"
 thumbnail: se
-date: "2015-10-06T11:34:49-04:00"
-title: "Social Engineering construed as blackmail by Halifax Examiner"
+date:      2015-10-06T11:34:49-04:00
+title:     "Social Engineering construed as blackmail by Halifax Examiner"
 description: "Salacious headlines get subscribers... I guess."
 tags:
   - "social engineering"

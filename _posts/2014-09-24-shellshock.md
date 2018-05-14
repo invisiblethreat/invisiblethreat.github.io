@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2014-09-24T11:35:18-04:00"
+date:   2014-09-24T11:35:18-04:00
 author: "Scott Walsh"
-title: "Shellshock - CVE-2014-6271"
+title:  "Shellshock - CVE-2014-6271"
 tags:
   - development
   - "information embargo"

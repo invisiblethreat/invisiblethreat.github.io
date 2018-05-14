@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   "2013-12-13T12:05:59-04:00"
+date:   2013-12-13T12:05:59-04:00
 title:  "Bypassing Chip & PIN"
 author: "Scott Walsh"
 tags:
