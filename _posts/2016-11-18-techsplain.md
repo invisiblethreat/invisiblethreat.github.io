@@ -2,7 +2,7 @@
 layout: post
 title: "'Cue the techsplainers', or, how to antagonize domain experts."
 description: "Why do research when you can just be snarky on Twiter?"
-date = "2016-11-18T10:34:49-04:00"
+date: 2016-11-18T10:34:49-04:00
 tags:
   - tracking
   - surveillance
