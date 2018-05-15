@@ -7,7 +7,7 @@ tags:
   - reversing
   - firmware
   - fmk
-catagories: reversing
+categories: reversing
 ---
 
  My latest interest has been spawned by an
