@@ -27,7 +27,7 @@ Now we decide on what to rip apart, and I picked some
 I've deployed one of these DIR-615 units somewhere at some point, but don't
 have one on hand. The initial scan went something like this:
 
-```text
+```no-highlight
 $ binwalk DIR-615_REVC_FIRMWARE_3.13.BIN
 
 DECIMAL         HEX             DESCRIPTION
@@ -42,7 +42,7 @@ x, CPU: MIPS, image type: OS Kernel Image, compression type: lzma, image name: &
 
 So the thing that I immediately understood was that I could grab the Squashfs section pretty easily with:
 
-```text
+```no-highlight
 $ dd if=DIR-615_REVC_FIRMWARE_3.13.BIN bs=1 count=2518754 skip=1048576 of=dir615.sqfs
 
 file dir615.sqfs
@@ -53,7 +53,7 @@ That looked promising, right? This quickly turned into a case of me being out
 of my depth. I basically thought I'd be able to run `unsquashfs` on that
 resulting image, but in reality, it just died:
 
-```text
+```no-highlight
 $ unsquashfs dir615.sqfs
 Reading a different endian SQUASHFS filesystem on a
 Parallel unsquashfs: Using 8 processors
