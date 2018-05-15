@@ -10,24 +10,24 @@ tags:
 catagories: reversing
 ---
 
- My latest interest has been spawned by an [awesome post]
- [http://blog.ioactive.com/2013/09/emulating-binaries-to-discover.html] by
- Ruben Santamarta [@Reversemode][https://twitter.com/reversemode] of IOActive.
+ My latest interest has been spawned by an
+ [awesome post](http://blog.ioactive.com/2013/09/emulating-binaries-to-discover.html) by
+ Ruben Santamarta [@Reversemode](https://twitter.com/reversemode) of IOActive.
 always had a rough idea what was going on with applying a firmware image to a
 device, but it was never anything that I investigated. After reading the
 article, I was ready to go! I conceptually understood what was happening...
 how hard could it be? Harder than I thought.
 
-First things first, you need [binwalk][http://code.google.com/p/binwalk/],
-which may or may not complain about the right version of 'magic' for Python. If it complains, grab the most recent version of [file][ftp://ftp.astron.com/pub/file/](build and install, and make sure that you
+First things first, you need [binwalk](http://code.google.com/p/binwalk/),
+which may or may not complain about the right version of 'magic' for Python. If it complains, grab the most recent version of [file](ftp://ftp.astron.com/pub/file/)(build and install, and make sure that you
 install the bindings for Python in `python`). Great `binwalk` works, now what?
 
 Now we decide on what to rip apart, and I picked some
-[random D-Link firmware][ftp://ftp.dlink.ca/PRODUCTS/DIR-615/DIR-615_REVC_FIRMWARE_3.13.BIN].
+[random D-Link firmware](ftp://ftp.dlink.ca/PRODUCTS/DIR-615/DIR-615_REVC_FIRMWARE_3.13.BIN).
 I've deployed one of these DIR-615 units somewhere at some point, but don't
 have one on hand. The initial scan went something like this:
 
-```
+```shell
 $ binwalk DIR-615_REVC_FIRMWARE_3.13.BIN
 
 DECIMAL         HEX             DESCRIPTION
@@ -42,7 +42,7 @@ x, CPU: MIPS, image type: OS Kernel Image, compression type: lzma, image name: &
 
 So the thing that I immediately understood was that I could grab the Squashfs section pretty easily with:
 
-```
+```shell
 $ dd if=DIR-615_REVC_FIRMWARE_3.13.BIN bs=1 count=2518754 skip=1048576 of=dir615.sqfs
 
 file dir615.sqfs
@@ -53,7 +53,7 @@ That looked promising, right? This quickly turned into a case of me being out
 of my depth. I basically thought I'd be able to run `unsquashfs` on that
 resulting image, but in reality, it just died:
 
-```
+```shell
 $ unsquashfs dir615.sqfs
 Reading a different endian SQUASHFS filesystem on a
 Parallel unsquashfs: Using 8 processors
@@ -66,7 +66,7 @@ FATAL ERROR aborting: failed to read fragment table
 This seems to indicate that I don't know what's going on, and to some extent
 this is true. In particular, I don't understand the LZMA component of the
 image. I was aware of
-[Firmware Mod Kit][http://code.google.com/p/firmware-mod-kit/],
+[Firmware Mod Kit](http://code.google.com/p/firmware-mod-kit/),
 but hadn't used it before. After grabbing FMK, I picked up a few dependencies,
 like `liblzma`, I was on my way.
 
