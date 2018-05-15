@@ -75,3 +75,5 @@ like `liblzma`, I was on my way.
 Leads to a fully extracted image. Digging around in the logs of FMK lets me
 know that the `unsquasfs-lzma` binary was used, which makes me want to explore
 some more. Part 2 to follow, dissecting how FMK got this done.
+
+![squashfs screenshot](/images/squashfs.png)
