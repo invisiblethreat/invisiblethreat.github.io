@@ -239,12 +239,12 @@ ul {
 		font-size: 30px;
 
 		@media (min-width: $screen-sm-min) {
-			font-size: 52px;
+			font-size: 32px;
 			margin-top: 0px;
 		}
 
 		@media (min-width: $screen-md-min) {
-			font-size: 60px;
+			font-size: 40px;
 			margin-top: -20px;
 		}
 	}
@@ -535,7 +535,7 @@ ul {
 		}
 
 		.content {
-			font-size: 18px;
+			font-size: 10px;
 			line-height: 170%;
 			padding-left: 15px;
 			padding-right: 15px;
@@ -543,7 +543,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 16px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;

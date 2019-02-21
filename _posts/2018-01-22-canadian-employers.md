@@ -56,7 +56,7 @@ Also, there is the recognition that this a two-way benefit:
   * Remote work benefits.
   * Access to markets with higher salaries.
 
-#### A Common Practice (at least on the East Coast) - Unicorn Hunting
+### A Common Practice (at least on the East Coast) - Unicorn Hunting
 
 Unicorn hunting is the practice of writing a job description that is so
 completely outlandish that nobody can hope to satisfy all the requirements.
