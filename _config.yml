@@ -16,6 +16,9 @@ twitter_username: blacktip
 github_username: invisiblethreat
 linkedin_link: https://ca.linkedin.com/in/walshs
 
+# Track hits
+ga_tag: UA-33788997-1
+
 # Footer
 footer_left: ""
 footer_right: ""
