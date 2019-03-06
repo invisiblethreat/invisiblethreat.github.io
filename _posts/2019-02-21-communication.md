@@ -54,7 +54,7 @@ from a more open question:
   - Are our existing queries taking too long, or could they be simplified?
 - The API is read-only and points at a replica database that is read-only. There would need to be changes to make this work.
   - Should the API point to the primary DB so it can write?
-  - Should their be another API that does the writes and is separate from this API that is exclusively reading?
+  - Should there be another API that does the writes and is separate from this API that is exclusively reading?
 
 Asking questions in a more open-ended form allows for more thoughtful answers,
 and also gives the ability to properly estimate the work.
