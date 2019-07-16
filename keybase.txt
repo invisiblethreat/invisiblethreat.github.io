@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/blacktip
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.invisiblethreat.ca
+  * I am blacktip (https://keybase.io/blacktip) on keybase.
+  * I have a public key ASCFHy0-BRclrGD2K1qFCkRrndCL3b0r5wzHf1NioJlMswo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011562e7de8004769be6014dd8a1f90d0467bacf87320cfe4a77e5fb8d6df4ba9d0a",
+      "host": "keybase.io",
+      "kid": "0120851f2d3e051725ac60f62b5a850a446b9dd08bddbd2be70cc77f5362a0994cb30a",
+      "uid": "66073dc047e71c3d4a59f02d26e92000",
+      "username": "blacktip"
+    },
+    "merkle_root": {
+      "ctime": 1563291744,
+      "hash": "654ff4e3745885f6203ba553d2ca562340ac3586d3a7523d492285344485d0821494501f6028f21c771923b3147e199bfcb74cef30bab0ca512be1f1d1c0e176",
+      "hash_meta": "d69c8e9884cc0b265cfe7235ab75764d0f6f1cb2d1c1e0a5b65764a81096e1fe",
+      "seqno": 5775248
+    },
+    "service": {
+      "entropy": "NWLA2oh3owM4jDwbVpe/NZHn",
+      "hostname": "www.invisiblethreat.ca",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563291818,
+  "expire_in": 504576000,
+  "prev": "4d696badabe3a447cd4033d40c9c41bbaddab1373d8e26eae40369a4ce18fc5c",
+  "seqno": 60,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghR8tPgUXJaxg9itahQpEa53Qi929K+cMx39TYqCZTLMKp3BheWxvYWTESpcCPMQgTWlrravjpEfNQDPUDJxBu63asTc9jibq5ANppM4Y/FzEIECM/v0Gr2wKJl99huNW5mSvU569V2eyoJfZw80LlP3bAgHCo3NpZ8RAC+tbAkgsRq22B4D1NhVTUm01KfgFGqLD3XNOtWjqgUJBbfBZxrH5lLOJnBPnUQn5XkjOmj4goLTiXc+shhzZD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID5rM0Y4UOdbx6J67R4X8uQ5Nvu/kCnH4y33+eItUZf/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/blacktip
+
+==================================================================
