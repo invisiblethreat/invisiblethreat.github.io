@@ -195,6 +195,7 @@ pihole
 ### `tasks/main.yml`
 
 ```yaml
+{% raw %}
 - name: "Pull {{ ctname }} Image"
   docker_image:
     name: "{{ ctname }}/{{ ctname }}"
@@ -234,6 +235,7 @@ pihole
       - "{{ media.container }}/{{ ctname }}/dnsmasq.d/:/etc/dnsmasq.d:rw"
       - "/etc/localtime:/etc/localtime:ro"
       - "/dev/rtc:/dev/rtc:ro"
+{% endraw %}
 ```
 
 Note: DNS servers are important. `127.0.0.1` ensures that Pihole works, and 
