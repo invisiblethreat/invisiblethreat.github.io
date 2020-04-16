@@ -36,7 +36,7 @@ networks for free.
 ### The Docker Network
 
 By default, on Linux, Docker creates the `172.17.0.0/16` network. The addresses
-in this space are non-deterministic, which is a non-issue when you're expsoing
+in this space are non-deterministic, which is a non-issue when you're exposing
 ports, as it's the host that will weld things together via `docker-proxy`. This
 is not desireable for my uses. My goal is to avoid binding ports on the gateway
 host if at all possible.
