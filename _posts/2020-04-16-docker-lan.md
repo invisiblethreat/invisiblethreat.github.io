@@ -28,7 +28,7 @@ along the way
 
 ## Networking Design
 
-![lan.png](lan.png)
+![lan.png](/images/lan.png)
 
 When depolying Docker at a network gateway, you get routing for the Docker
 networks for free.
