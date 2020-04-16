@@ -47,7 +47,7 @@ general sanity to prevail.
 
 ### Ansible YAML for creating Docker network
 
-```
+```yaml
 - name: Create lan-bridge
   docker_network:
     name: lan-bridge
@@ -66,7 +66,7 @@ environments after running.
 
 ### `init` sets things up
 
-```
+```bash
 KEY="auth/ansible-mgmt.key"
 make
 
@@ -92,7 +92,7 @@ fi
 
 ### `Makefile` bootstraps your environment
 
-```
+```make
 VIRTUALENV_VERSION=16.3.0
 SHELL=/bin/bash
 CACHE_DIR=./.cache
@@ -131,7 +131,7 @@ clean:
 
 ### `end` protects us from ourselves
 
-```
+```bash
 # This is the file that will be used to run vault. If it is not set, vault
 # will prompt for a password. It is controlled in this manner due to the
 # syntax that an assignement string as an argument.
@@ -194,7 +194,7 @@ pihole
 
 ### `tasks/main.yml`
 
-```
+```yaml
 - name: "Pull {{ ctname }} Image"
   docker_image:
     name: "{{ ctname }}/{{ ctname }}"
@@ -242,14 +242,14 @@ something goes wrong
 
 ### `vars/main.yml`
 
-```
+```yaml
 ctname: pihole
 ipaddr: 172.18.0.2
 ```
 
 ### `../../vars/` Common variables to all containers
 
-```
+```yaml
 bridge: lan-bridge
 media:
   home: /home/media
