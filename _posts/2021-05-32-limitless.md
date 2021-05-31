@@ -39,7 +39,6 @@ Note-taking is covered in this book, but I think it(and lots of other folks)
 somewhat miss something that I feel is really foundational to
 non-fiction/learning note-taking: *take your notes on a sheet of paper*.  This
 has several benefits in my opinion:
-
 - Brevity. You write what matters and can refer to the text if you need to expand.
 - Underlining/highlighting goes away. I remember seeing textbooks in university that looks like someone had soaked them with a glow stick. It also reduces "capture fatigue" of deciding when to start and stop. It also is influenced by/influences brevity
 - Your words. This allows for context that matters to you. It also allows for ideation on concepts that matter to you, and the takeaway of a sheet of paper.
@@ -57,7 +56,6 @@ however I feel that the story gets repeated/tagged too many times for the
 purpose of the book. Other than this relatively minor complaint, I found the
 book to be very valuable. For me the most valuable sections were on all in Part
 4:
-
 - Focus
 - Study
 - Memory
@@ -109,7 +107,6 @@ I have known since grade school that I read faster than the general population,
 but had no real concept of what the general rates are, or where I was in
 relation to those numbers. There was an exercise in the book to baseline, some
 techniques presented, and then a retest. For me, it gave the following results:
-
 - My initial words-per-minute(WPM) was 378. Population average is 150-200.
 - Post exercises and retesting was 726 WPM. With a little rounding up, that's 2x, 1.92x if you want to be pedantic about things.
 
