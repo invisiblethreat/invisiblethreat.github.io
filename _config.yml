@@ -1,10 +1,10 @@
 # Site settings
 title: "invisiblethreat"
 email: scott@invisiblethreat.ca
-description: "Just because you can't see it doesn't mean that it's not happening."
+description: "Your hands can't hit what your eyes can't see."
 baseurl: ""
 url: "https://www.invisiblethreat.ca"
-title_description: "Posts about information security, code, and technology policies."
+title_description: "Information security, code, technology, and other random bits."
 title_image: "/images/gravatar.png"
 google_analytics: ""
 disqus_account: invisiblethreat
