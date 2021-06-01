@@ -10,6 +10,7 @@ tags:
  - learning
  - reading
  - memory
+ - tools
 ---
 ## tl;dr 9/10
 
@@ -124,3 +125,10 @@ recognition, and the time to access the meaning.
 
 Get the book, take the notes, do the exercises. Improve the skills that improve
 all other knowledge acquisition pursuits
+
+## Post Script (Update 2021-06-01)
+
+The construction of my books was pretty shoddy. The spine was twisted and seemed
+partially delaminated. I'm not sure if this was due to, or the cause of, the
+covers bowing away from the pages. Maybe it was just this run, or maybe it was
+the company that did the binding.
