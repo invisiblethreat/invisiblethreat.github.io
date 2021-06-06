@@ -1,0 +1,21 @@
+#!/bin/bash
+BUNDLE_PATH="$HOME/.vim/bundle"
+BUILTIN_PATH="$HOME/.vim/pack"
+CONTAINER="autostart"
+
+cd $BUNDLE_PATH
+
+if [ -e $BUILTIN_PATH/$CONTAINER ]; then
+  mkdir -p $BUILTIN_PATH/$CONTAINER/start
+fi
+
+for i in $(ls)
+do
+  cd $i
+  PLUGIN_REPO=$(git remote -v | perl -lane 'print $F[1]' | sed 's,git://,https://,' | uniq)
+  echo $PLUGIN_REPO
+  #PLUG_DIR=$(basename -s .git $PLUGIN_REPO)
+  #TARGET="$BUILTIN_PATH/$CONTAINER/start"
+  #git clone $PLUGIN_REPO $TARGET/$PLUG_DIR
+  cd ..
+done
