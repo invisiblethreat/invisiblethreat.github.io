@@ -43,7 +43,7 @@ help me get to workable code.
 Does this scream "I have a cross-compile issue when starting the language
 server?". It sure didn't to me.
 
-[terse error message](/images/code-error.png)
+![terse error message](/images/code-error.png)
 
 That message didn't return useful search results, so the debugging continued. On
 a whim I tried `GOOS=windows code .` and everything was magical. Things just
