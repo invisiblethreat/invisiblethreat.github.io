@@ -42,3 +42,9 @@ been serving me well for the better part of a decade, and as soon as I have
 access to `git` on a machine, I get to my personal baseline in seconds. With
 this said, I've been coasting. It's time to improve my Vim configuration.
 
+## The Great `.vimrc` refactor of 2021
+
+It turns out that I've been adding to my `.vimrc` and never taking time to clean
+up when warranted. I still had references to custom binaries in functions from
+two jobs ago. This is a super safe way to manage the file, but also leads to
+more than zero "WTF is this?" moments.
