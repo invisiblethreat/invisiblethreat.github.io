@@ -13,6 +13,20 @@ tags:
  - windows
  - darwin
 ---
+
+## *Update: 2021-12-26*
+
+After being off on a Python adventure for a few months, I had to refactor some
+Go code. All of the issues came back. I was incensed. I deleted everything
+related to VSCode. Rather than use any of my old configuration, I started from
+scratch. I installed all my plugins by hand, and reconfigured `settings.json` by
+hand. It _seems_ that there were incompatible settings in my `settings.json`
+that caused `go pls` and the Go plugin in VSCode to spiral out of control. I
+haven't had time to fully debug the exact issue, but everything now works as
+expected. I generally dislike "scorched earth" debugging, as it often stops when
+things "work" without getting all the way to root cause analysis. In this case,
+"working" is good enough and I've moved on with my life.
+
 ## VSCode & `gopls`: friends or foes?
 
 I've had issues with VSCode and `gopls` on macOS since it's been a thing. I was
@@ -73,3 +87,4 @@ cat << EOT > .vscode/settings.json
 }
 EOT
 ```
+
