@@ -44,7 +44,7 @@ of my list for 2022.
 ### Start, Stop, Continue, but in a different order.
 
 I find the "start, stop, continue" feedback process the most actionable sort of
-way to think about moving forward, but I've nerver applied it to personal
+way to think about moving forward, but I've never applied it to personal
 development, so here we go.
 
 ### Stop
