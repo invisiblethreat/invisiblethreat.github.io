@@ -14,10 +14,8 @@ post_limit: 5
 twitter_username: blacktip
 github_username: invisiblethreat
 linkedin_link: https://ca.linkedin.com/in/walshs
-mastodon:
-- username: invisiblethreat
-  instance: infosec.exchange
-
+mastodon_instance: infosec.exchange
+mastodon_username: invisiblethreat
 
 # Footer
 footer_left: ""
@@ -32,4 +30,3 @@ kramdown:
 
 permalink: pretty
 exclude: ["vendor", "README.md", "LICENSE"]
-
