@@ -1,13 +1,12 @@
 # Site settings
 title: "invisiblethreat"
 email: scott@invisiblethreat.ca
-description: "Your hands can't hit what your eyes can't see."
+description: ""
 baseurl: ""
-url: "https://www.invisiblethreat.ca"
+url: "https://invisiblethreat.ca"
 title_description: "Information security, code, technology, and other random bits."
 title_image: "/images/gravatar.png"
 google_analytics: ""
-disqus_account: invisiblethreat
 github_repository: https://github.com/invisiblethreat/invisiblethreat.github.io
 post_limit: 5
 
@@ -15,6 +14,9 @@ post_limit: 5
 twitter_username: blacktip
 github_username: invisiblethreat
 linkedin_link: https://ca.linkedin.com/in/walshs
+mastodon:
+- username: invisiblethreat
+  instance: infosec.exchange
 
 
 # Footer
