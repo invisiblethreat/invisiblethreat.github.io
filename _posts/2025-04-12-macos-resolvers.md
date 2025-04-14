@@ -45,7 +45,7 @@ sudo mkdir -p /etc/resolver/lan
 # 172.18.0.2 is my internal pihole instance, which has an upstream rule that
 # points to my authoritative internal DNS server. There are some shell nuances
 # about redirection that mean you need to actually either be root, or fully wrap
-the `echo` call in a subshell call to sudo.
+# the `echo` call in a subshell call to sudo.
 
 echo "nameserver 172.18.0.2" >> /etc/resolver/lan
 ```
