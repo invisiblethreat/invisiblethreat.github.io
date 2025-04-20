@@ -37,7 +37,7 @@ I eventually stumbled across [this article from 2019](https://medium.com/@jamiee
 ## The solution
 
 The solution is available via `/etc/resolver/<Private Namespace>`. In my case,
-my internal DNS is using the suffix `.lan`. _ Edit: this works for any arbitrary
+my internal DNS is using the suffix `.lan`. _Edit: this works for any arbitrary
 domain or subdomain. You could employ the same solution for `foo.bar.com` or
 `bar.com` and all requests that match the namespace will be routed to that
 resolver._
