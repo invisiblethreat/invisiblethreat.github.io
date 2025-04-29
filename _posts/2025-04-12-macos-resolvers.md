@@ -70,7 +70,7 @@ resolver #10
 ```
 
 As an aside `dig`/`host` are using `/etc/resolv.conf` which makes
-troubleshooting difficult. Make sure that you're using `dnscacheutil -q host -a
+troubleshooting difficult. Make sure that you're using `dscacheutil -q host -a
 name` instead.
 
 ```
