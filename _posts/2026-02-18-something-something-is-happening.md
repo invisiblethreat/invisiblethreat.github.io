@@ -75,8 +75,9 @@ are up for debate, but given my last several weeks, I think that I'm, reluctantl
 how easy it was to manufacture a story out of the content there.
 - The doubters are judging fish on their ability to climb trees. I think that
 they have largely formed opinions on older models, if they've tried them at all.
-Some of the most ardent critics seem to have adopted "AI Luddite" personas) when
-they're exponentially improving. 
+Some of the most ardent critics seem to have adopted "AI Luddite" personas when
+models exponentially improving. I'm not sure what is to be gained by being
+closed minded to the fact that every lab is trying to improve all of the time. 
 
 ## Things I'm Keeping in Mind
 
