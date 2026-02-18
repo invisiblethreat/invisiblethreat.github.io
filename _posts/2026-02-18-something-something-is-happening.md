@@ -114,3 +114,9 @@ I mostly agree with Shumer that pure coding is solved. Knowing the application
 of techniques and understanding the problems that you're trying to solve really
 well is the most value you can have in the day-to-day. Reducing yourself to a
 "spec engineer" feels like the best way to be replaced. 
+
+#### POSSE Note
+
+I own my own content. I subscribe to POSSE: Publish on Own Site, Syndicate
+Everywhere. The original location of this content is
+[invisiblethreat.ca](https://invisiblethreat.ca).
