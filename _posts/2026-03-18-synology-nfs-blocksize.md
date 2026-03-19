@@ -7,9 +7,8 @@ thumbnail:  gravatar
 summary:    Something is coming, and maybe the argument is around scale
 categories: technology
 tags:
- - ai
- - llm
- - future
+ - synology
+ - nfs
 ---
 
 
@@ -72,7 +71,7 @@ Create a systemd drop-in unit that slots between `proc-fs-nfsd.service` and `nfs
 ```bash
 cat > /etc/systemd/system/nfs-blocksize.service << 'EOF'
 [Unit]
-Description=Set `nfsd` max_block_size before NFS server starts
+Description=Set nfsd max_block_size before NFS server starts
 After=proc-fs-nfsd.service
 Before=nfs-server.service
 Requires=proc-fs-nfsd.service
@@ -138,4 +137,4 @@ nfsstat -m | grep rsize
 - This survives reboots. The systemd unit is persistent.
 - DSM updates may overwrite files in `/usr/lib/systemd/system/` but should leave `/etc/systemd/system/` alone. If an update breaks it, just re-run `systemctl enable nfs-blocksize.service && systemctl daemon-reload`.
 - If you're using NFSv4 exclusively (likely on a modern Linux-only homelab), you only need port `2049/tcp` open in your firewall. The additional ports required by NFSv3 (mountd, statd, lockd) are not needed.
-- The DS918+ has 4GB RAM. The kernel's default block size calculation targets 1MB on machines with that much memory, but DSM's NFS init script overrides it. This fix restores what the kernel would have chosen anyway.
+- The DS918+ ships with 4GB of RAM. The kernel's default block size calculation targets 1MB on machines with that much memory, but DSM's NFS init script overrides it. This fix restores what the kernel would have chosen anyway.
