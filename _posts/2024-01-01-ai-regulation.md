@@ -31,7 +31,7 @@ wrong to me in multiple ways:
 - combining the above two items can create paternalistic outcomes that don't
 serve citizens, but rather the interests of those in power
 
-## Americanterism and a failure to understand the internet
+## Americentrism and a failure to understand the internet
 
 In hearing all of the talks of regulation from the US government, it really
 makes me wonder if anyone within it understands how AI models are trained,
