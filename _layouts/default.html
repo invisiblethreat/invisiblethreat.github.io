@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body>
-    {% include header.html %}
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}
-    </body>
+<!doctype html>
+<html lang="en" data-theme="{{ site.theme_style | default: 'fieldnotes' }}">
+{% include head.html %}
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{% include header.html %}
+<main id="main" class="shell" tabindex="-1">{{ content }}</main>
+{% include footer.html %}
+<script src="{{ '/assets/theme.js' | relative_url }}" defer></script>
+</body>
 </html>
