@@ -1,41 +1,8 @@
 ---
 layout: default
+title: Archive
+permalink: /posts/
 ---
-
-
-<div class="container-fluid index">
-  <div class="row index all-posts">
-
-    <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
-
-      {% for post in site.posts %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-      {% if forloop.first %}
-      <div class="col-md-12 content-panel articles">
-        <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-        <ul>
-      {% endif %}
-
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </li>
-      {% if forloop.last %}
-        </ul>
-      </div>
-      {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </div>
-        <div class="col-md-12 content-panel articles">
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
-        {% endif %}
-    {% endif %}
-
-    {% endfor %}
-    </div>
-
-  </div>
+<header class="page-heading"><p class="eyebrow">The collected notes</p><h1>Writing, over time.</h1><p>{{ site.posts.size }} articles on security, technology, and the things in between.</p></header>
+{% assign years = site.posts | group_by_exp: 'post', "post.date | date: '%Y'" %}
+<div class="archive">{% for year in years %}<section class="archive-year" aria-labelledby="year-{{ year.name }}"><h2 id="year-{{ year.name }}">{{ year.name }}</h2><ul>{% for post in year.items %}<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d' }}</time><a href="{{ post.url | relative_url }}">{{ post.title }} <span aria-hidden="true">↗</span></a></li>{% endfor %}</ul></section>{% endfor %}</div>

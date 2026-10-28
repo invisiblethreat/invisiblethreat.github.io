@@ -1,49 +1,19 @@
 ---
 layout: default
 ---
-
-
-<div class="container-fluid index">
-  <a rel="me" href="https://infosec.exchange/@invisiblethreat"></a>
-    <div class="row">
-
-        <div class="col-md-12 main content-panel">
-
-            <div class="gravatar">
-                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-            </div>
-
-            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
-
-            <div class="author-text">
-                {{ site.title_description }}
-            </div>
-
-            {% include social_links.html %}
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Latest Articles</h2>
-
-              <ul>
-                  {% for post in site.posts limit: site.post_limit %}
-
-                      <li>
-                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-                      </li>
-
-                  {% endfor %}
-                  <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
-
-    </div>
+<section class="intro">
+<div class="intro-copy"><p class="eyebrow">Independent thinking / since 2013</p>
+<h1>Notes from the<br><em>other side of the screen.</em></h1>
+<p class="intro-description">{{ site.title_description }}</p>
+{% include social_links.html compact=true %}</div>
+<div class="identity" aria-hidden="true"><div class="identity-grid"></div><img src="{{ site.title_image | relative_url }}" alt="" width="112" height="112"><span class="identity-caption">invisiblethreat<span>security / systems / ideas</span></span></div>
+</section>
+<section class="latest" aria-labelledby="latest-title">
+<div class="section-heading"><h2 id="latest-title">Latest writing</h2><a href="{{ '/posts/' | relative_url }}">View archive <span aria-hidden="true">↗</span></a></div>
+<div class="post-list">
+{% for post in site.posts limit: site.post_limit %}
+<article class="post-row"><div class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y' }}</time><span>{{ post.categories | first | default: 'Notes' }}</span></div>
+<div class="post-detail"><h3><a href="{{ post.url | relative_url }}">{{ post.title }}<span class="row-arrow" aria-hidden="true">↗</span></a></h3><p>{{ post.content | markdownify | strip_html | normalize_whitespace | truncatewords: 28 }}</p></div></article>
+{% endfor %}
 </div>
+</section>

@@ -29,4 +29,8 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: pretty
-exclude: ["vendor", "README.md", "LICENSE"]
+exclude: ["vendor", "README.md", "LICENSE", "Gemfile", "Gemfile.lock", "script", "screenshots"]
+
+# Active theme. Options: fieldnotes (editorial), signal (technical), quiet (minimal).
+# Change this value and rebuild to switch the entire site.
+theme_style: fieldnotes
