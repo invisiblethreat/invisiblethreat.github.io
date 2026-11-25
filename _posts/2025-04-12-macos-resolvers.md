@@ -43,14 +43,12 @@ domain or subdomain. You could employ the same solution for `foo.bar.com` or
 resolver._
 
 ```
-sudo mkdir -p /etc/resolver/lan
-
 # 172.18.0.2 is my internal pihole instance, which has an upstream rule that
 # points to my authoritative internal DNS server. There are some shell nuances
 # about redirection that mean you need to actually either be root, or fully wrap
 # the `echo` call in a subshell call to sudo.
 
-echo "nameserver 172.18.0.2" >> /etc/resolver/lan
+echo "nameserver 172.17.0.2" | sudo tee /etc/resolver/lan
 ```
 
 To verify that you now have a private namespace resolver, use the following
