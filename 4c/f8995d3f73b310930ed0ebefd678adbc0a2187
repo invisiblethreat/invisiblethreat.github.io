@@ -1,0 +1,14 @@
+_posts/2025-04-12-macos-resolvers.md
+  h_a6a3bf4e84b9af 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4cf8995d3f73b310930ed0ebefd678adbc0a2187",
+  "prompts": {},
+  "humans": {
+    "h_a6a3bf4e84b9af": {
+      "author": "Scott Walsh <scott@invisiblethreat.ca>"
+    }
+  }
+}
